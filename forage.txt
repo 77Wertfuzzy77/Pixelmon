@@ -1,0 +1,168 @@
+		forageItems = new ArrayList<>();
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.RED_FLOWER), Blocks.TALLGRASS, 100, EnumType.Grass));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.YELLOW_FLOWER), Blocks.TALLGRASS, 100, EnumType.Grass));
+
+		forageItems.add(new ForageItem(Items.APPLE, Blocks.TALLGRASS, 100, (EnumType[]) null));
+		forageItems.add(new ForageItem(Items.CARROT, Blocks.TALLGRASS, 100, (EnumType[]) null));
+
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.GRASS), new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.TALLGRASS), new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(Items.MELON_SEEDS, new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Grass, EnumType.Bug, EnumType.Ground));
+		forageItems.add(new ForageItem(Items.PUMPKIN_SEEDS, new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Grass, EnumType.Bug, EnumType.Ground));
+		forageItems.add(new ForageItem(Items.WHEAT_SEEDS, new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Grass, EnumType.Bug, EnumType.Ground));
+		forageItems.add(new ForageItem(Items.POTATO, new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(Items.CARROT, new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItems.leafStoneShard, new Block[] { Blocks.GRASS, Blocks.DIRT }, 40, EnumType.Grass));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.DIRT), new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Ground));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.RED_MUSHROOM), new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Poison));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.BROWN_MUSHROOM), new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Poison));
+		forageItems.add(new ForageItem(Items.POISONOUS_POTATO, new Block[] { Blocks.GRASS, Blocks.DIRT }, 100, EnumType.Poison));
+
+		forageItems.add(new ForageItem(Items.APPLE, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.LEAVES), new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsApricorns.apricornBlack, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsApricorns.apricornBlue, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsApricorns.apricornGreen, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsApricorns.apricornPink, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsApricorns.apricornRed, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsApricorns.apricornWhite, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsApricorns.apricornYellow, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.aguavBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.apicotBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.aspearBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.babiriBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.leppaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.oranBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.rawstBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.chartiBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.cheriBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.chestoBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.chilanBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.chopleBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.cobaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.colburBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.custapBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.drashBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.eggantBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.enigmaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.figyBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.ganlonBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.ginemaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItems.grepaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.habanBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItems.hondewBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.iapapaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.jabocaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.kasibBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.kebiaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItems.kelpsyBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.lansatBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.liechiBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.lumBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.magoBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.micleBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.occaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.passhoBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.payapaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.pechaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.persimBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.petayaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItems.pomegBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.pumkinBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItems.qualotBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.rindoBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.rowapBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.salacBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.shucaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.sitrusBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.starfBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItems.tamatoBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.tangaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.tougaBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.wacanBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.wikiBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.yacheBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(PixelmonItemsHeld.yagoBerry, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 10, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(Items.EGG, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Flying));
+		forageItems.add(new ForageItem(Items.FEATHER, new Block[] { Blocks.LEAVES, Blocks.LEAVES2 }, 100, EnumType.Flying));
+
+		forageItems.add(new ForageItem(Items.STICK, Material.WOOD, 100, EnumType.Grass));
+
+		forageItems.add(new ForageItem(Items.BOOK, Blocks.BOOKSHELF, 10, EnumType.Psychic));
+		forageItems.add(new ForageItem(Items.EXPERIENCE_BOTTLE, Blocks.BOOKSHELF, 10, EnumType.Psychic));
+
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.VINE), Blocks.VINE, 50, EnumType.Grass, EnumType.Bug));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.COCOA), Blocks.VINE, 10, EnumType.Grass, EnumType.Bug));
+
+		forageItems.add(new ForageItem(Items.FISHING_ROD, Material.WATER, 100, EnumType.Water));
+		forageItems.add(new ForageItem(Items.FISH, Material.WATER, 100, (EnumType[]) null));
+		forageItems.add(new ForageItem(PixelmonItems.oldRod, Material.WATER, 50, EnumType.Water));
+		forageItems.add(new ForageItem(PixelmonItems.goodRod, Material.WATER, 15, EnumType.Water));
+		forageItems.add(new ForageItem(PixelmonItems.superRod, Material.WATER, 5, EnumType.Water));
+		forageItems.add(new ForageItem(PixelmonItems.waterStoneShard, Material.WATER, 20, EnumType.Water));
+		forageItems.add(new ForageItem(Items.PRISMARINE_SHARD, Material.WATER, 20, EnumType.Water));
+		forageItems.add(new ForageItem(Items.PRISMARINE_CRYSTALS, Material.WATER, 5, EnumType.Water));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.ICE), Material.WATER, 100, EnumType.Ice));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.CLAY), Material.WATER, 100, EnumType.Ground));
+		forageItems.add(new ForageItem(Items.SLIME_BALL, Material.WATER, 100, EnumType.Poison));
+		forageItems.add(new ForageItem(Items.REEDS, Material.WATER, 100, EnumType.Grass));
+
+		forageItems.add(new ForageItem(Items.BLAZE_POWDER, Material.LAVA, 100, EnumType.Fire));
+		forageItems.add(new ForageItem(Items.GUNPOWDER, Material.LAVA, 100, EnumType.Fire));
+		forageItems.add(new ForageItem(PixelmonItems.fireStoneShard, Material.LAVA, 20, EnumType.Fire));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.OBSIDIAN), Material.LAVA, 20, EnumType.Water));
+
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.SAND), Blocks.SAND, 100, EnumType.Water, EnumType.Ground));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.CLAY), Blocks.SAND, 100, EnumType.Water));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.SANDSTONE), Blocks.SAND, 100, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItemsFossils.armorFossilCovered, Blocks.SAND, 1, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItemsFossils.clawFossilCovered, Blocks.SAND, 1, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItemsFossils.coverFossilCovered, Blocks.SAND, 1, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItemsFossils.domeFossilCovered, Blocks.SAND, 1, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItemsFossils.helixFossilCovered, Blocks.SAND, 1, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItemsFossils.oldAmberCovered, Blocks.SAND, 1, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItemsFossils.plumeFossilCovered, Blocks.SAND, 1, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItemsFossils.rootFossilCovered, Blocks.SAND, 1, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItemsFossils.skullFossilCovered, Blocks.SAND, 1, EnumType.Ground));
+
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.COBBLESTONE), Material.ROCK, 100, EnumType.Rock, EnumType.Ground));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.STONE), Material.ROCK, 100, EnumType.Rock, EnumType.Ground));
+		forageItems.add(new ForageItem(Items.COAL, Material.ROCK, 100, EnumType.Rock, EnumType.Ground));
+		forageItems.add(new ForageItem(Items.BONE, Material.ROCK, 100, EnumType.Rock, EnumType.Ground));
+		forageItems.add(new ForageItem(new ItemStack(Items.DYE, 1, 0), Material.ROCK, 100, EnumType.Rock, EnumType.Ground));
+		forageItems.add(new ForageItem(PixelmonItems.aluminiumIngot, Material.ROCK, 20, EnumType.Steel));
+		forageItems.add(new ForageItem(Items.IRON_INGOT, Material.ROCK, 20, EnumType.Steel));
+		forageItems.add(new ForageItem(Items.GOLD_NUGGET, Material.ROCK, 2, EnumType.Steel));
+		forageItems.add(new ForageItem(PixelmonItems.thunderStoneShard, Material.ROCK, 20, EnumType.Electric));
+		forageItems.add(new ForageItem(Items.REDSTONE, Material.ROCK, 60, EnumType.Electric));
+		forageItems.add(new ForageItem(PixelmonItems.duskStoneShard, Material.ROCK, 20, EnumType.Dark));
+		forageItems.add(new ForageItem(PixelmonItems.sunStoneShard, Material.ROCK, 20, EnumType.Fire));
+		forageItems.add(new ForageItem(PixelmonItems.moonStoneShard, Material.ROCK, 10, EnumType.Normal));
+		forageItems.add(new ForageItem(PixelmonItems.shinyStoneShard, Material.ROCK, 10, EnumType.Normal));
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.MOSSY_COBBLESTONE), Material.ROCK, 70, EnumType.Grass));
+
+		forageItems.add(new ForageItem(new ItemStack(Item.getItemFromBlock(Blocks.STONEBRICK), 1, BlockStoneBrick.EnumType.MOSSY.getMetadata()), Blocks.STONEBRICK, 70, EnumType.Grass));
+		forageItems.add(new ForageItem(new ItemStack(Item.getItemFromBlock(Blocks.STONEBRICK), 1, BlockStoneBrick.EnumType.CRACKED.getMetadata()), Blocks.STONEBRICK, 70, EnumType.Fighting));
+
+		forageItems.add(new ForageItem(Items.FLINT, Blocks.GRAVEL, 20, EnumType.Rock, EnumType.Ground, EnumType.Fire));
+
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.SNOW), Blocks.ICE, 70, EnumType.Ice));
+		forageItems.add(new ForageItem(Items.SNOWBALL, Blocks.ICE, 100, EnumType.Ice));
+
+		forageItems.add(new ForageItem(Item.getItemFromBlock(Blocks.NETHERRACK), Blocks.NETHERRACK, 100, EnumType.Fire, EnumType.Rock));
+		forageItems.add(new ForageItem(Items.QUARTZ, Blocks.NETHERRACK, 40, EnumType.Fire, EnumType.Rock));
+		forageItems.add(new ForageItem(Items.BLAZE_POWDER, Blocks.NETHERRACK, 20, EnumType.Fire, EnumType.Rock));
+		forageItems.add(new ForageItem(Items.BLAZE_ROD, Blocks.NETHERRACK, 20, EnumType.Fire, EnumType.Rock));
+		forageItems.add(new ForageItem(Items.MAGMA_CREAM, Blocks.NETHERRACK, 20, EnumType.Poison));
+		forageItems.add(new ForageItem(new ItemStack(Items.SKULL, 1, 1), Blocks.NETHERRACK, 5, EnumType.Dark));
+		forageItems.add(new ForageItem(Items.GHAST_TEAR, Blocks.NETHERRACK, 20, EnumType.Ghost));
+		forageItems.add(new ForageItem(Items.GLOWSTONE_DUST, Blocks.NETHERRACK, 60, EnumType.Electric));
+
+		forageItems.add(new ForageItem(Items.NETHER_WART, Blocks.SOUL_SAND, 60, EnumType.Grass));
+
+		forageItems.add(new ForageItem(Items.ENDER_PEARL, Blocks.END_STONE, 60, EnumType.Psychic));
+		forageItems.add(new ForageItem(Items.ENDER_EYE, Blocks.END_STONE, 60, EnumType.Psychic));
+
+		forageItems.add(new ForageItem(PixelmonItems.shinyStoneShard, Material.ROCK, 10, EnumType.Fairy));
+		forageItems.add(new ForageItem(PixelmonItems.sunStoneShard, Material.ROCK, 10, EnumType.Fairy));
+		forageItems.add(new ForageItem(Items.GLOWSTONE_DUST, Material.ROCK, 60, EnumType.Fairy));

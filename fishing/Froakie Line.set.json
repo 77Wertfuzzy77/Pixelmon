@@ -1,0 +1,115 @@
+{
+  "id": "Froakie Fishing",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Froakie"
+      },
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swampland",
+          "mutated_swampland"
+        ],
+        "stringLocationTypes": [
+          "Old Rod"
+        ]
+      },
+      "rarity": 5
+    },
+    {
+      "spec": {
+        "name": "Froakie"
+      },
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swampland",
+          "mutated_swampland"
+        ],
+        "stringLocationTypes": [
+          "Good Rod"
+        ]
+      },
+      "rarity": 10
+    },
+    {
+      "spec": {
+        "name": "Frogadier"
+      },
+      "minLevel": 20,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swampland",
+          "mutated_swampland"
+        ],
+        "stringLocationTypes": [
+          "Good Rod"
+        ]
+      },
+      "rarity": 3
+    },
+    {
+      "spec": {
+        "name": "Frogadier"
+      },
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swampland",
+          "mutated_swampland"
+        ],
+        "stringLocationTypes": [
+          "Super Rod"
+        ]
+      },
+      "rarity": 10
+    },
+    {
+      "spec": {
+        "name": "Greninja",
+        "form": 0
+      },
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swampland",
+          "mutated_swampland"
+        ],
+        "stringLocationTypes": [
+          "Super Rod"
+        ]
+      },
+      "rarity": 5
+    },
+    {
+      "spec": {
+        "name": "Greninja",
+        "form": 1
+      },
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swampland",
+          "mutated_swampland"
+        ],
+        "stringLocationTypes": [
+          "Super Rod"
+        ]
+      },
+      "rarity": 1
+    }
+  ]
+}

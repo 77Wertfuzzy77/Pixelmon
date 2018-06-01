@@ -1,0 +1,209 @@
+{
+	"id": "Seel Line Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Seel"
+			},
+			"minLevel": 10,
+			"maxLevel": 23,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 50
+		},
+		{
+			"spec": {
+				"name": "Seel"
+			},
+			"minLevel": 25,
+			"maxLevel": 37,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 65
+		},
+		{
+			"spec": {
+				"name": "Seel"
+			},
+			"minLevel": 13,
+			"maxLevel": 29,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"weathers": [
+					"RAIN"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 70
+		},
+		{
+			"spec": {
+				"name": "Seel"
+			},
+			"minLevel": 13,
+			"maxLevel": 29,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"weathers": [
+					"RAIN"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 85
+		},
+		{
+			"spec": {
+				"name": "Dewgong"
+			},
+			"minLevel": 34,
+			"maxLevel": 47,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 30
+		},
+		{
+			"spec": {
+				"name": "Dewgong"
+			},
+			"minLevel": 37,
+			"maxLevel": 52,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 45
+		},
+		{
+			"spec": {
+				"name": "Dewgong"
+			},
+			"minLevel": 34,
+			"maxLevel": 43,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"weathers": [
+					"RAIN"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 35
+		},
+		{
+			"spec": {
+				"name": "Dewgong"
+			},
+			"minLevel": 42,
+			"maxLevel": 53,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"weathers": [
+					"RAIN"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 50
+		}
+	]
+}

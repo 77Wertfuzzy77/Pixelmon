@@ -1,0 +1,284 @@
+{
+	"id": "Spheal Line Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Spheal"
+			},
+			"minLevel": 5,
+			"maxLevel": 17,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 60
+		},
+		{
+			"spec": {
+				"name": "Spheal"
+			},
+			"minLevel": 10,
+			"maxLevel": 26,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 80
+		},
+		{
+			"spec": {
+				"name": "Spheal"
+			},
+			"minLevel": 13,
+			"maxLevel": 29,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"weathers": [
+					"RAIN"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 110
+		},
+		{
+			"spec": {
+				"name": "Sealeo"
+			},
+			"minLevel": 32,
+			"maxLevel": 38,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 30
+		},
+		{
+			"spec": {
+				"name": "Sealeo"
+			},
+			"minLevel": 34,
+			"maxLevel": 41,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 45
+		},
+		{
+			"spec": {
+				"name": "Sealeo"
+			},
+			"minLevel": 32,
+			"maxLevel": 40,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"weathers": [
+					"RAIN"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 45
+		},
+		{
+			"spec": {
+				"name": "Sealeo"
+			},
+			"minLevel": 35,
+			"maxLevel": 43,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"weathers": [
+					"RAIN"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 60
+		},
+		{
+			"spec": {
+				"name": "Walrein"
+			},
+			"minLevel": 45,
+			"maxLevel": 54,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 15
+		},
+		{
+			"spec": {
+				"name": "Walrein"
+			},
+			"minLevel": 48,
+			"maxLevel": 57,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 25
+		},
+		{
+			"spec": {
+				"name": "Walrein"
+			},
+			"minLevel": 35,
+			"maxLevel": 43,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"weathers": [
+					"RAIN"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 25
+		},
+		{
+			"spec": {
+				"name": "Walrein"
+			},
+			"minLevel": 35,
+			"maxLevel": 43,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"ice_mountains",
+					"taiga_cold",
+					"taiga_cold_hill",
+					"mutated_ice_flats",
+					"mutated_taiga_cold"
+				],
+				"weathers": [
+					"RAIN"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 50
+		}
+	]
+}

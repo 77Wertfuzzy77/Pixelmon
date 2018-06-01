@@ -1,0 +1,83 @@
+{
+	"id": "Torkoal Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Torkoal",
+				"ability": "WhiteSmoke"
+			},
+			"minLevel": 15,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"desert",
+					"desert_hills",
+					"mutated_desert",
+					"savanna_rock",
+					"savanna",
+					"mesa",
+					"mesa_rock",
+					"mesa_clear_rock"
+				],
+				"stringLocationTypes": [
+					"Good Rod Lava"
+				]
+			},
+			"rarity": 50
+		},
+		{
+			"spec": {
+				"name": "Torkoal"
+			},
+			"minLevel": 15,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"stringLocationTypes": [
+					"Good Rod Lava"
+				]
+			},
+			"rarity": 30
+		},
+		{
+			"spec": {
+				"name": "Torkoal",
+				"ability": "WhiteSmoke"
+			},
+			"minLevel": 25,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"desert",
+					"desert_hills",
+					"mutated_desert",
+					"savanna_rock",
+					"savanna",
+					"mesa",
+					"mesa_rock",
+					"mesa_clear_rock"
+				],
+				"stringLocationTypes": [
+					"Super Rod Lava"
+				]
+			},
+			"rarity": 70
+		},
+		{
+			"spec": {
+				"name": "Torkoal"
+			},
+			"minLevel": 25,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"condition": {
+				"stringLocationTypes": [
+					"Super Rod Lava"
+				]
+			},
+			"rarity": 35
+		}
+	]
+}

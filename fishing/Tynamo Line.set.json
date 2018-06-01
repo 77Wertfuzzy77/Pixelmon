@@ -1,0 +1,151 @@
+{
+	"id": "Tynamo Line Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Tynamo"
+			},
+			"minLevel": 5,
+			"maxLevel": 15,
+			"typeID": "pokemon",
+			"condition": {
+				"maxY": 40,
+				"stringLocationTypes": [
+					"Old Rod"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"frozen_ocean",
+					"beaches",
+					"cold_beach",
+					"stone_beach"
+				]
+			},
+			"rarity": 10
+		},
+		{
+			"spec": {
+				"name": "Tynamo"
+			},
+			"minLevel": 5,
+			"maxLevel": 15,
+			"typeID": "pokemon",
+			"condition": {
+				"maxY": 40,
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"frozen_ocean",
+					"beaches",
+					"cold_beach",
+					"stone_beach"
+				]
+			},
+			"rarity": 40
+		},
+		{
+			"spec": {
+				"name": "Tynamo"
+			},
+			"minLevel": 5,
+			"maxLevel": 15,
+			"typeID": "pokemon",
+			"condition": {
+				"weathers": [
+					"STORM"
+				],
+				"maxY": 40,
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"frozen_ocean",
+					"beaches",
+					"cold_beach",
+					"stone_beach"
+				]
+			},
+			"rarity": 70
+		},
+		{
+			"spec": {
+				"name": "Eelektrik"
+			},
+			"minLevel": 17,
+			"maxLevel": 36,
+			"typeID": "pokemon",
+			"condition": {
+				"maxY": 40,
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"frozen_ocean",
+					"beaches",
+					"cold_beach",
+					"stone_beach"
+				]
+			},
+			"rarity": 30
+		},
+		{
+			"spec": {
+				"name": "Eelektrik"
+			},
+			"minLevel": 22,
+			"maxLevel": 40,
+			"typeID": "pokemon",
+			"condition": {
+				"maxY": 40,
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"frozen_ocean",
+					"beaches",
+					"cold_beach",
+					"stone_beach"
+				]
+			},
+			"rarity": 45
+		},
+		{
+			"spec": {
+				"name": "Eelektross"
+			},
+			"minLevel": 30,
+			"maxLevel": 44,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 10
+		}
+	]
+}

@@ -1,0 +1,89 @@
+{
+	"id": "Dratini Line Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Dratini"
+			},
+			"minLevel": 10,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"forest_hills",
+					"jungle",
+					"jungle_edge",
+					"jungle_hills",
+					"birch_forest",
+					"birch_forest_hills",
+					"extreme_hills_with_trees",
+					"mutated_forest",
+					"mutated_jungle",
+					"mutated_jungle_edge",
+					"mutated_birch_forest",
+					"mutated_birch_forest_hills"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 10
+		},
+		{
+			"spec": {
+				"name": "Dratini"
+			},
+			"minLevel": 15,
+			"maxLevel": 30,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"forest_hills",
+					"jungle",
+					"jungle_edge",
+					"jungle_hills",
+					"birch_forest",
+					"birch_forest_hills",
+					"extreme_hills_with_trees",
+					"mutated_forest",
+					"mutated_jungle",
+					"mutated_jungle_edge",
+					"mutated_birch_forest",
+					"mutated_birch_forest_hills"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 30
+		},
+		{
+			"spec": {
+				"name": "Dragonair"
+			},
+			"minLevel": 30,
+			"maxLevel": 46,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"forest_hills",
+					"jungle",
+					"jungle_edge",
+					"jungle_hills",
+					"birch_forest",
+					"birch_forest_hills",
+					"extreme_hills_with_trees",
+					"mutated_forest",
+					"mutated_jungle",
+					"mutated_jungle_edge",
+					"mutated_birch_forest",
+					"mutated_birch_forest_hills"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 15
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "Wailmer Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Wailmer"
+			},
+			"minLevel": 25,
+			"maxLevel": 39,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"deep_ocean",
+					"ocean"
+				],
+				"stringLocationTypes": [
+					"Good Rod",
+					"Super Rod"
+				]
+			},
+			"rarity": 60
+		}
+	]
+}

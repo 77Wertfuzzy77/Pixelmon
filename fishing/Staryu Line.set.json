@@ -1,0 +1,137 @@
+{
+	"id": "Staryu Line Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Staryu"
+			},
+			"minLevel": 15,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"beaches"
+				],
+				"times": [
+					"NIGHT"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 50
+		},
+		{
+			"spec": {
+				"name": "Staryu"
+			},
+			"minLevel": 5,
+			"maxLevel": 15,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"beaches"
+				],
+				"times": [
+					"DAY"
+				],
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"rarity": 20
+		},
+		{
+			"spec": {
+				"name": "Staryu"
+			},
+			"minLevel": 20,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"beaches"
+				],
+				"times": [
+					"NIGHT"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 65
+		},
+		{
+			"spec": {
+				"name": "Staryu"
+			},
+			"minLevel": 20,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"beaches"
+				],
+				"times": [
+					"DAY"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 30
+		},
+		{
+			"spec": {
+				"name": "Starmie"
+			},
+			"minLevel": 25,
+			"maxLevel": 40,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"beaches"
+				],
+				"times": [
+					"NIGHT"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 35
+		},
+		{
+			"spec": {
+				"name": "Starmie"
+			},
+			"minLevel": 20,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"ocean",
+					"deep_ocean",
+					"beaches"
+				],
+				"times": [
+					"DAY"
+				],
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"rarity": 10
+		}
+	]
+}

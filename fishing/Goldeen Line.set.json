@@ -1,0 +1,101 @@
+{
+	"id": "Goldeen Line Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Goldeen"
+			},
+			"minLevel": 10,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"stringLocationTypes": [
+					"Old Rod"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"swampland",
+					"mutated_swampland",
+					"ocean",
+					"deep_ocean",
+					"frozen_ocean",
+					"beaches"
+				]
+			},
+			"rarity": 80
+		},
+		{
+			"spec": {
+				"name": "Goldeen"
+			},
+			"minLevel": 30,
+			"maxLevel": 40,
+			"typeID": "pokemon",
+			"condition": {
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"swampland",
+					"mutated_swampland",
+					"ocean",
+					"deep_ocean",
+					"frozen_ocean",
+					"beaches"
+				]
+			},
+			"rarity": 80
+		},
+		{
+			"spec": {
+				"name": "Seaking"
+			},
+			"minLevel": 30,
+			"maxLevel": 40,
+			"typeID": "pokemon",
+			"condition": {
+				"stringLocationTypes": [
+					"Good Rod"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"swampland",
+					"mutated_swampland",
+					"ocean",
+					"deep_ocean",
+					"frozen_ocean",
+					"beaches"
+				]
+			},
+			"rarity": 20
+		},
+		{
+			"spec": {
+				"name": "Seaking"
+			},
+			"minLevel": 30,
+			"maxLevel": 40,
+			"typeID": "pokemon",
+			"condition": {
+				"stringLocationTypes": [
+					"Super Rod"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"swampland",
+					"mutated_swampland",
+					"ocean",
+					"deep_ocean",
+					"frozen_ocean",
+					"beaches"
+				]
+			},
+			"rarity": 120
+		}
+	]
+}
